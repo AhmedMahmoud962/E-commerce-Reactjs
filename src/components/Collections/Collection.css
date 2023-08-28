@@ -1,0 +1,172 @@
+/* sM-banner */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("../../../public/images/banner/1.jpg");
+  background-size: cover;
+  background-position: center;
+  min-width: 650px;
+  height: 50vh;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url("../../../public/images/banner/2.webp");
+
+}
+
+#sm-banner h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#sm-banner span {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+#sm-banner .banner-box:hover button {
+  border: 1px solid #027b9a;
+  background-color: #027b9a;
+  color: #FFF;
+}
+
+.btn-white {
+  background-color: transparent;
+  color: #fff;
+  padding: 11px 23px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all .7s;
+  border: 1px solid #08aecf;
+  font-weight: 600;
+  outline: none;
+}
+
+/* banner3 */
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+  color: #FFF;
+  margin-top: 50px;
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("../../../public/images/banner/b10.jpg");
+  background-size: cover;
+  background-position: center;
+  min-width: 30%;
+  height: 30vh;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+  background-image: url("../../../public/images/banner/2.jpg");
+}
+
+#banner3 .banner-box3 {
+  background-image: url("../../../public/images/banner/b18.jpg");
+}
+
+/* make it responsive for devices like ipad   */
+
+@media (max-width:799px) {
+
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  /* banner */
+  #banner {
+    height: 25vh;
+  }
+
+  /* sM-banner */
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+    margin-bottom: 10px;
+  }
+
+  /* banner3 */
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  #newsletters .form {
+    display: flex;
+    padding: 0 80px;
+  }
+}
+
+/* make it responsive for Mobile    */
+
+@media (max-width:470px) {
+  /* banner */
+
+  #banner {
+
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box {
+    width: 320px;
+    height: 40vh;
+    padding: 15px;
+  }
+
+  /* banner3 */
+  #banner3 {
+    padding: 0 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 100%;
+  }
+
+  .btn-Noramal {
+    padding: 10px 12px
+  }
+}

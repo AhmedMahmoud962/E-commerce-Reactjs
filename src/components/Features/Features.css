@@ -1,0 +1,73 @@
+#Types {
+  width: 100%;
+  padding: 70px 0;
+}
+
+.Types-box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+
+}
+
+.single-Types {
+  flex-basis: 32%;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+  margin-bottom: 20px;
+  color: black;
+  position: relative;
+}
+
+.single-Types img {
+  width: 100%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #027b9a);
+  opacity: 0;
+  transition: 1s
+}
+
+.single-Types:hover .overlay {
+  opacity: 1;
+}
+
+.Types-desc {
+  width: 80%;
+  position: absolute;
+  bottom: 55%;
+  left: 22%;
+  opacity: 1;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+
+.single-Types:hover .Types-desc {
+  bottom: 40%;
+  opacity: 1;
+  color: #fff;
+
+}
+
+@media screen and (max-width:1050px) {
+  .single-Types {
+    flex-basis: 90%;
+    margin-bottom: 30px;
+  }
+
+  .single-Types:hover .Types-desc {
+    bottom: 25% !important;
+  }
+
+  .Types-desc h2 {
+    font-size: 18px;
+  }
+}
