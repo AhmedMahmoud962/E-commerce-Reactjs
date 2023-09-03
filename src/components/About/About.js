@@ -14,7 +14,7 @@ function About() {
         data-aos-duration="3000"
       >
         <div className="about-img">
-          <img src="images/about/1.jpg" alt="" />
+          <img loading="lazy" src="images/about/1.jpg" alt="" />
         </div>
         <div className="about-text" data-aos="fade-up" data-aos-duration="3000">
           <h2>Who We Are?</h2>
@@ -56,7 +56,7 @@ function About() {
           Download Our <a href="#App">App</a>{" "}
         </h2>
         <div class="video">
-          <img src="images/about/a6.jpg" alt="" />
+          <img loading="lazy" src="images/about/a6.jpg" alt="" />
         </div>
       </section>
       {/* </Roll> */}
