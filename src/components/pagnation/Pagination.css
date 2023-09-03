@@ -48,4 +48,10 @@
   background-color: black;
 }
 
-@media (max-width:799px) {}
+@media (max-width:450px) {
+.prev,
+.next {
+  margin: 0 7px;
+  padding: 5px 9px;
+ 
+}
