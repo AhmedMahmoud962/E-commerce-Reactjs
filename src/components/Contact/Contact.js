@@ -74,7 +74,7 @@ const Contact = () => {
           data-aos-duration="2000"
         >
           <div>
-            <img
+            <img loading="lazy"
               src="images/people/BOB.jpg"
               alt=""
               style={{ borderRadius: "50%" }}
@@ -91,7 +91,7 @@ const Contact = () => {
             </p>
           </div>
           <div>
-            <img src="images/people/1.png" alt="" />
+            <img loading="lazy" src="images/people/1.png" alt="" />
 
             <p>
               {" "}
@@ -103,7 +103,7 @@ const Contact = () => {
             </p>
           </div>
           <div>
-            <img src="images/people/3.png" alt="" />
+            <img loading="lazy" src="images/people/3.png" alt="" />
 
             <p>
               {" "}
@@ -115,7 +115,7 @@ const Contact = () => {
             </p>
           </div>
           <div>
-            <img src="images/people/2.png" alt="" />
+            <img loading="lazy" src="images/people/2.png" alt="" />
 
             <p>
               {" "}
@@ -128,7 +128,7 @@ const Contact = () => {
             </p>
           </div>
           <div>
-            <img
+            <img loading="lazy"
               src="images/people/img-6.jpg"
               alt=""
               style={{ borderRadius: "50%" }}
