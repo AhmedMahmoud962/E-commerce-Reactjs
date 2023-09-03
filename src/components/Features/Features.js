@@ -37,7 +37,7 @@ const Features = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
               >
-                <img src={item.image} alt="" />
+                <img loading="lazy" src={item.image} alt="" />
                 <div className="overlay"></div>
                 <div className="Types-desc">
                   <h2>{item.title}</h2>
