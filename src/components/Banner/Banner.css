@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   background-image: url("../../../public//images/banner/b1.jpg");
+  height:auto;
   background-size: cover;
   background-position: center;
   width: 100%;
