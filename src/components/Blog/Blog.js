@@ -17,7 +17,7 @@ function Blog() {
                   data-aos="fade-up"
                   data-aos-duration="3000"
                 >
-                  <img src={item.image} alt="" />
+                  <img loading="lazy" src={item.image} alt="" />
                 </div>
                 <div
                   className="blog-text"
