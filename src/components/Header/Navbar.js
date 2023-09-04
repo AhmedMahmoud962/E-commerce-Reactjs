@@ -16,7 +16,8 @@ const Navbar = () => {
     // <Zoom left>
     <nav className={`navbar ${isOpen ? "open" : ""} `}>
       <div className="navbar-logo">
-        <img src="images/logo.webp" alt="Logo" />
+        // <img src="images/logo.webp" alt="Logo" />
+        <h1>COZA STORE</h1>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>
         <div className="bar"></div>
