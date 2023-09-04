@@ -27,13 +27,13 @@ const cardData = [
     price: "55$",
     category: "Men",
   },
-  {
-    id: 5,
-    image: "images/Products/1.jpg",
-    title: "Men",
-    price: "60$",
-    category: "Men",
-  },
+  // {
+  //   id: 5,
+  //   image: "images/Products/1.jpg",
+  //   title: "Men",
+  //   price: "60$",
+  //   category: "Men",
+  // },
   // {
   //   id: 6,
   //   image: "images/Products/3.jpg",
@@ -55,13 +55,13 @@ const cardData = [
   //   price: "50$",
   //   category: "Men",
   // },
-  {
-    id: 9,
-    image: "images/Products/p1.jpg",
-    title: "Woman",
-    price: "85$",
-    category: "Woman",
-  },
+  // {
+  //   id: 9,
+  //   image: "images/Products/p1.jpg",
+  //   title: "Woman",
+  //   price: "85$",
+  //   category: "Woman",
+  // },
 
   {
     id: 10,
@@ -98,13 +98,13 @@ const cardData = [
   //   price: "400$",
   //   category: "Watches",
   // },
-  {
-    id: 15,
-    image: "images/Products/10.jpg",
-    title: "Watches",
-    price: "520$",
-    category: "Watches",
-  },
+  // {
+  //   id: 15,
+  //   image: "images/Products/10.jpg",
+  //   title: "Watches",
+  //   price: "520$",
+  //   category: "Watches",
+  // },
   {
     id: 16,
     image: "images/Products/w4.webp",
@@ -126,13 +126,13 @@ const cardData = [
   //   price: "80$",
   //   category: "Shoes",
   // },
-  {
-    id: 19,
-    image: "images/Products/s6.png",
-    title: "Shoes",
-    price: "70$",
-    category: "Shoes",
-  },
+  // {
+  //   id: 19,
+  //   image: "images/Products/s6.png",
+  //   title: "Shoes",
+  //   price: "70$",
+  //   category: "Shoes",
+  // },
   {
     id: 20,
     image: "images/Products/s7.jpeg",
